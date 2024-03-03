@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    padding: 1vw 4vw;
+
+}
+img{
+    mix-blend-mode: lighten;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   border-bottom: 2px solid #dadada;
+   /* position: fixed; */
+}
+nav .nav-bar ul{
+display: flex;
+gap: 30px;
+}
+.nav-bar ul li{
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 1vw;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+}
+.btn i{
+    font-size: 1.5vw;
+}
+.btn button{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1vw;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4vw 0;
+    
+}
+.left{
+    margin-right: 5vw;
+    width: 45%;
+    height: 60vh;
+    border-bottom: 1px solid #fff;
+}
+.left h1{
+    font-size: 6vw;
+    text-transform: uppercase;
+}
+.Clist{
+    display: flex;
+}
+.Clist img{
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.circleP1{
+    transition: .3s ease-in-out;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    width: 45%;
+    height: 75vh;
+    background-image: url("https://images.unsplash.com/photo-1708966847311-027d49664377?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    position: relative;
+}
+
+.right h2{
+    font-size: 1.6vw;
+    color: black;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+}
+.right input{
+    font-size: 1.2vw;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 1.4vw 2.4vw;
+    width: 80%;
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    color: black;
+}
+.page2{
+    margin-top: 5vw;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    padding: 2vw 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cona{
+    padding: 1.2vw;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.cona1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+.cona1 i{
+    font-size: 3vw;
+}
+.cona1 p{
+    font-size: 1vw;
+    font-weight: 500;
+}
+.text{
+    border: 1px solid #ffffff;
+    width: fit-content;
+    border-radius: 40px;
+    padding: .5vw 1.6vw;
+    color: #fff;
+    margin: .6vw;
+    transition: .3s ease-in-out;
+}
+.three{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+ 
+}
+.one1{
+    width: 38%;
+    height: 100%;
+    background-color: #fc6f16;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vw 2vw ;
+    transition: .3s ease-in-out;
+}
+.one1::after{
+    content: "";
+    width: 150px;
+    height: 60px;
+    background-color: #fc6f16;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+}
+.one2{
+    width: 38%;
+    height: 100%;
+    background-color: #ebd7ca;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vw 2vw ;
+    transition: .3s ease-in-out;
+}
+.one2::after{
+    content: "";
+    width: 150px;
+    height: 60px;
+    background-color: #ebd7ca;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+}
+.one3{
+    width: 38%;
+    height: 100%;
+    background-color: #f7dc45;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vw 2vw ;
+    transition: .3s ease-in-out;
+}
+.one3::after{
+    content: "";
+    width: 150px;
+    height: 60px;
+    background-color: #f7dc45;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+}
+
+.change1{
+    font-size: 1.6vw;
+    font-weight: 600;
+    z-index: 9;
+}
+.change2{
+    font-size: 5vw;
+}
+.change2 i{
+    font-size: 5vw;
+    transition: .3s ease-in-out;
+}
+
+/* HOVER EFFECTS STARTS HERE */
+
+.nav-bar ul  li:hover{
+    cursor: pointer;
+    color: #f7dc45;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #f7dc45;
+}
+.circleP1:hover{
+    cursor: pointer;
+    scale: 1.2;
+    z-index: 99;
+}
+i:hover{
+    cursor: pointer;
+    color: #f7dc45;
+}
+.change2 i:hover{
+    color: #ffffff;
+}
+.text:hover{
+    cursor: pointer;
+    color: #f7dc45;
+    border: 1px solid #f7dc45;
+}
+.one1:hover{
+    cursor: pointer;
+    scale: 1.1;
+    z-index: 99;
+}
+.one2:hover{
+    cursor: pointer;
+    scale: 1.1;
+    z-index: 99;
+}
+.one3:hover{
+    cursor: pointer;
+    scale: 1.1;
+    z-index: 99;
+}
+
+/* @media (max-width : 460px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }    
+    .nav-bar ul li{
+        display: flex;
+        font-size: 3.5vw;
+    }
+    .btn {
+        position: absolute;
+        right: 20px;
+        top: 5%;
+        font-size: 3vw;
+    }
+    button{
+        font-size: 30vw;
+    }
+} */
